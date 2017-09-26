@@ -1,0 +1,88 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {513, 489}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{37, 35}, {335, 44}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{182, 229}, {150, 32}}",
+          "uuid" : "8D98362F-2066-4C64-8B79-8F0A935000E7",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the diameter of pizza, in inche",
+          "name" : "instructions_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{37, 147}, {207, 61}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{157, 229}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "7F782C56-CDB5-4FCC-BA74-00A7CEBB7038",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "diameter_textbox",
+          "font_size" : 17
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{309, 147}, {122, 61}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "calculate_button_touch_up_inside",
+          "frame" : "{{217, 229}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "C9D97E43-44B1-4822-B5A4-FB921CF07D40",
+          "class" : "Button",
+          "name" : "calculate_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{37, 290}, {150, 51}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{182, 229}, {150, 32}}",
+          "uuid" : "044C53F9-1DE5-43A9-B112-280DBA07E5B5",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "answer_label",
+          "font_size" : 18
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
